@@ -20,7 +20,77 @@
     </div>
     <div class="header-content text-center">
       <img src="images/logo.png">
-      <h1>Marilyn</h1>
+
+      <svg  class="nombre" viewBox="0 0 500 160">
+
+        <!-- Symbol with text -->
+        <symbol id="s-text">
+          <text text-anchor="middle"
+                x="50%"
+                y="50%"
+                dy=".35em"
+                class="text--line"
+                >
+            Marilyn
+          </text>    
+        </symbol>
+
+        <!-- Clippath  with text -->
+        <clippath id="cp-text">
+          <text text-anchor="middle"
+                x="50%"
+                y="50%"
+                dy=".35em"
+                class="text--line"
+                >
+            Marilyn
+          </text>
+        </clippath>
+
+        <!-- Group for shadow -->
+        <g clip-path="url(#cp-text)" class="shadow">
+          <rect
+                width="100%"
+                height="100%"         
+                class="anim-shape anim-shape--shadow"
+                ></rect>
+        </g>
+
+        <!-- Group with clippath for text-->
+        <g clip-path="url(#cp-text)" class="colortext">
+          <!-- Animated shapes inside text -->
+          <rect
+                width="100%"
+                height="100%"         
+                class="anim-shape"
+                ></rect>
+          <rect
+                width="80%"
+                height="100%"         
+                class="anim-shape"
+                ></rect>
+          <rect
+                width="60%"
+                height="100%"         
+                class="anim-shape"
+                ></rect>
+          <rect
+                width="40%"
+                height="100%"         
+                class="anim-shape"
+                ></rect>
+          <rect
+                width="20%"
+                height="100%"         
+                class="anim-shape"
+                ></rect>
+        </g>
+
+          <!-- Transparent copy of text to keep
+                 patterned text selectable -->
+        <use xlink:href="#s-text"
+               class="text--transparent"></use>
+      </svg>
       <p>Mi Perfil</p>
     </div>
   </div>
@@ -28,7 +98,7 @@
     <div class="container">
       <h2>About me</h2>
       <p class="biografia">
-        <img src="images/profile.jpg">
+        <img src="images/my-photo.jpg">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non autem molestiae, ipsam eveniet inventore consequatur suscipit iure corporis eos tempore. Deserunt aspernatur eveniet optio, quae suscipit fugiat ipsum at voluptates.
       </p>
     </div>
