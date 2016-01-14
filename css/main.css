@@ -1,39 +1,69 @@
-body{
-	color: #555555;
-	font-family: Arial;
-	font-size: 13px;
+*
+{
+    outline: 1px solid rgba(255,0,0,.4)
 }
-h1 ,h2,h3,h4{
-	color: #A9268D;
-	font-family:"Oswald",Arial,Sans-serif;
+h1,h2,h3,h4
+{
+	color:white;
+	font-family: 'Amita', cursive;
+    font-size: 20px;
 }
-.main-menu a:hover{
-	background-color: #ECECEC;
+#black
+{
+    color: black;
 }
-.list-nav{
-	text-align: center;
+
+ hr {
+   border-top: 3px solid #4bceb4;
+   border-bottom: 2px dashed #4bceb4;
+   border-left:none;
+   border-right:none;
+   height: 6px;
+ }
+
+header
+{
+    height: 70px;
+    margin: 0;
+    padding: 0;
+    background-color: #F26444;
 }
-.list-nav li{
-	display:inline-block;
+header nav
+{
+    position: relative;
+    top: 20px ;
 }
-.list-nav a {
-	display: block;
-	padding: 5px 20px;
-	font-family:"Oswald",Arial,Sans-serif;
-	color: #555555;
-	text-transform: uppercase;
-	transition:all 0.5s;
+header  button
+{
+    background: transparent;
+    border: transparent;
+    color: white;
+    font-size:
 }
-.list-nav a:hover{
-	text-decoration: none;
-	transform: scale(1.2)
+.list-menu span
+{
+    color: white;
+}
+header img
+{
+    width: 120px;
+    height: auto;
+}
+.opacity{
+	background-color:black;
+	opacity: 0.8;
+    padding: 50px;
+
+}
+section
+{
+    margin-top: 70px;
 }
 .header-content{
-	background: url(../images/fondo-1.jpg);
+    background: url(../images/programacion.jpg);
 	background-size: cover;
 	color: #fff;
 	text-align: center;
-	padding: 50px;
 }
 	/* Main styles */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:800);
@@ -101,7 +131,7 @@ h1 ,h2,h3,h4{
 /* Other stuff */
 
 .nombre {
-	height: 100%;
+  height: 100%;
   background: transparent;
   font: 9em/1 Open Sans, Impact;
   text-transform: uppercase;
@@ -110,33 +140,5 @@ h1 ,h2,h3,h4{
 
 svg {
   position:relative;
-  
-}
-.about-me{
-	background: url(../images/fondo-2.png);
-	background-size: cover;
-}
- .about-me .biografia img{
-	float: left;
-	width: 200px;
-	margin-right: 15px;
-	border:1px solid #555555;
-	padding: 5px;
-}
- .about-me p{
- 	color: white;
- 	font-size: 16px;
- }
-.favoritos ul{
-	height: 260px;
-	overflow-y:auto;
 
-}
-.favoritos img{
-	margin-top:20px;
-	width: 200px;
-}
-.contactos{
-	background: url(../images/tile2.png);
-	padding: 2%;
 }

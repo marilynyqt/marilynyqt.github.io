@@ -3,132 +3,118 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Pretify</title>
-  <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-   <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Perfil">
+  <meta name="author" content="Marilyn Yudy Quispe Ticona">
+  <title>Marilyn Quispe</title>
+  <link rel="shorcut icon" href="images/icono-1.png">
+  <link href='https://fonts.googleapis.com/css?family=Amita:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
    <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-  <div class="header">
-    <div class="main-menu">
-      <ul class="list-nav">
-        <li><a href="">Sobre mi</a></li>
-        <li><a href="">Favoritos</a></li>
-        <li><a href="">Contactos</a></li>
-      </ul>
-    </div>
-    <div class="header-content text-center">
-      <img src="images/logo.png">
+    <header class="navbar-fixed-top">
+          <button type="button" class=" list-menu navbar-toggle"data-toggle="collapse" data-target="#acolapsar">
+              <span class="sr-only">Toggle Navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+          <div class="logo col-md-2 col-md-offset-1 col-xs-6">
+               <img src="images/logo.png">
+          </div>
+          <div class="col-md-5 col-md-offset-4 col-xs-6 collapse navbar-collapse" id="acolapsar">
+           <nav class="nav navbar-nav">
+                <button>Home</button>
+                <button>About Us</button>
+                <button>Services</button>
+                <button>Portfolio</button>
+           </nav>
+          </div>
+    </header>
+    <section>
+        <div class="header-content">
+           <div class="opacity">
+               <svg  class="nombre" viewBox="0 0 500 160">
 
-      <svg  class="nombre" viewBox="0 0 500 160">
+                    <!-- Symbol with text -->
+                    <symbol id="s-text">
+                      <text text-anchor="middle"
+                            x="50%"
+                            y="50%"
+                            dy=".35em"
+                            class="text--line"
+                            >
+                        Marilyn
+                      </text>
+                    </symbol>
 
-        <!-- Symbol with text -->
-        <symbol id="s-text">
-          <text text-anchor="middle"
-                x="50%"
-                y="50%"
-                dy=".35em"
-                class="text--line"
-                >
-            Marilyn
-          </text>    
-        </symbol>
+                    <!-- Clippath  with text -->
+                    <clippath id="cp-text">
+                      <text text-anchor="middle"
+                            x="50%"
+                            y="50%"
+                            dy=".35em"
+                            class="text--line"
+                            >
+                        Marilyn
+                      </text>
+                    </clippath>
 
-        <!-- Clippath  with text -->
-        <clippath id="cp-text">
-          <text text-anchor="middle"
-                x="50%"
-                y="50%"
-                dy=".35em"
-                class="text--line"
-                >
-            Marilyn
-          </text>
-        </clippath>
+                    <!-- Group for shadow -->
+                    <g clip-path="url(#cp-text)" class="shadow">
+                      <rect
+                            width="100%"
+                            height="100%"
+                            class="anim-shape anim-shape--shadow"
+                            ></rect>
+                    </g>
 
-        <!-- Group for shadow -->
-        <g clip-path="url(#cp-text)" class="shadow">
-          <rect
-                width="100%"
-                height="100%"         
-                class="anim-shape anim-shape--shadow"
-                ></rect>
-        </g>
+                    <!-- Group with clippath for text-->
+                    <g clip-path="url(#cp-text)" class="colortext">
+                      <!-- Animated shapes inside text -->
+                      <rect
+                            width="100%"
+                            height="100%"
+                            class="anim-shape"
+                            ></rect>
+                      <rect
+                            width="80%"
+                            height="100%"
+                            class="anim-shape"
+                            ></rect>
+                      <rect
+                            width="60%"
+                            height="100%"
+                            class="anim-shape"
+                            ></rect>
+                      <rect
+                            width="40%"
+                            height="100%"
+                            class="anim-shape"
+                            ></rect>
+                      <rect
+                            width="20%"
+                            height="100%"
+                            class="anim-shape"
+                            ></rect>
+                    </g>
 
-        <!-- Group with clippath for text-->
-        <g clip-path="url(#cp-text)" class="colortext">
-          <!-- Animated shapes inside text -->
-          <rect
-                width="100%"
-                height="100%"         
-                class="anim-shape"
-                ></rect>
-          <rect
-                width="80%"
-                height="100%"         
-                class="anim-shape"
-                ></rect>
-          <rect
-                width="60%"
-                height="100%"         
-                class="anim-shape"
-                ></rect>
-          <rect
-                width="40%"
-                height="100%"         
-                class="anim-shape"
-                ></rect>
-          <rect
-                width="20%"
-                height="100%"         
-                class="anim-shape"
-                ></rect>
-        </g>
-
-          <!-- Transparent copy of text to keep
-                 patterned text selectable -->
-        <use xlink:href="#s-text"
-               class="text--transparent"></use>
-      </svg>
-      <p>Mi Perfil</p>
-       <img src="images/flores-1.gif">
-    </div>
-  </div>
-  <div class="about-me text-center" >
-    <div class="container">
-      <h2>About me</h2>
-      <p class="biografia">
-        <img src="images/my-photo.jpg">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non autem molestiae, ipsam eveniet inventore consequatur suscipit iure corporis eos tempore. Deserunt aspernatur eveniet optio, quae suscipit fugiat ipsum at voluptates.
-      </p>
-    </div>
-  </div>
-  <div class="favoritos text-center">
-    <h3>Favoritos</h3>
-    <h5>Here are a few things I really love</h5>
-    <ul class="list-nav">
-      <li>
-        <a href="#"><img src="images/kitten.jpg" class="img-circle img-thumbnail"></a>
-      </li>
-      <li>
-        <a href="#"><img src="images/kitten.jpg" class="img-circle img-thumbnail"></a>
-      </li>
-      <li>
-        <a href="#"><img src="images/kitten.jpg" class="img-circle img-thumbnail"></a>
-      </li>
-      <li>
-        <a href="#"><img src="images/kitten.jpg" class="img-circle img-thumbnail"></a>
-      </li>
-    </ul>  
-  </div>
-  <div class="contactos text-center">
-    <h3>Contactos</h3>
-    <ul class="list-nav">
-      <li><a href="#"><img src="images/twitter.png"></a></li>
-      <li><a href="#"><img src="images/facebook.png"></a></li>
-      <li><a href="#"><img src="images/linkedin.png"></a></li>
-    </ul>
-  </div>
+                      <!-- Transparent copy of text to keep
+                             patterned text selectable -->
+                    <use xlink:href="#s-text"
+                           class="text--transparent"></use>
+            </svg>
+               <h4>Web Developer</h4>
+           </div>
+        </div>
+        <div class="text-center">
+            <hr>
+            <h1 id="black">"Siempre hay que seguir intentandolo hasta conseguir nuestro objetivo"</h1>
+            <hr>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <scrip src="js/bootstrap.min.js"    ></scrip>
 </body>
 </html>
