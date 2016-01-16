@@ -1,4 +1,7 @@
-
+*
+{
+    outline: 1px solid rgba(255,0,0,.4)
+}
 h1,h2,h3,h4
 {
 	color:white;
@@ -52,7 +55,7 @@ header img
 .opacity{
 	background-color:black;
 	opacity: 0.8;
-    padding: 50px;
+    padding: 89px;
 
 }
 section
@@ -60,6 +63,7 @@ section
     margin-top: 70px;
 }
 .header-content{
+    height: 600px;
     background: url(../images/programacion.jpg);
 	background-size: cover;
 	color: #fff;
