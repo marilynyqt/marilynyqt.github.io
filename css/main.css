@@ -1,7 +1,4 @@
-*
-{
-    outline: 1px solid rgba(255,0,0,.4)
-}
+
 h1,h2,h3,h4
 {
 	color:white;
@@ -14,13 +11,16 @@ h1,h2,h3,h4
 }
 
  hr {
-   border-top: 3px solid #4bceb4;
-   border-bottom: 2px dashed #4bceb4;
+   border-top: 3px solid #D7DF01;
+   border-bottom: 2px dashed #D7DF01;
    border-left:none;
    border-right:none;
    height: 6px;
  }
-
+.hr-abajo{
+   border-bottom: 3px solid #D7DF01;
+   border-top: 2px dashed #D7DF01;
+}
 header
 {
     height: 70px;
@@ -141,4 +141,13 @@ section
 svg {
   position:relative;
 
+}
+/*mensaje */
+.mensaje
+{
+    height: 300px;
+}
+.mensaje h1{
+    padding: 60px 20px;
+    font-size: 50px;
 }
