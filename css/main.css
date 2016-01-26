@@ -2,11 +2,26 @@
 {
     outline:1px solid BLUE;
 }
+/* BASIC RESET */
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input
+{
+    margin:0;
+    padding:0;
+}
 h1,h2,h3,h4
 {
 	color:white;
 	font-family: 'Amita', cursive;
     font-size: 20px;
+}
+h1
+{ font: bold 65px/60px;
+     color: #eee;
+     text-shadow: 0px 2px 6px #333;
+}
+.size-titulo
+{
+    font-size: 30px;
 }
 #black
 {
@@ -133,6 +148,9 @@ section
 
 svg {
   position:relative;
+}
+.container
+{
 
 }
 .photo img
@@ -145,21 +163,81 @@ svg {
 {
     height: 300px;
 }
-.mensaje h1{
+.mensaje h1
+{
     padding: 60px 20px;
-    font-size: 50px;
+    font-size: 40px;
 }
-.hr-arriba {
+.hr-arriba
+{
     border-top: 3px solid #D7DF01;
     border-bottom: 2px dashed #D7DF01;
     border-left:none;
     border-right:none;
     height: 6px;
  }
-.hr-abajo{
+.hr-abajo
+{
     border-bottom: 3px solid #D7DF01;
     border-top: 2px dashed #D7DF01;
     border-left:none;
     border-right:none;
     height: 6px;
 }
+/* Portafolio */
+.portafolio
+{
+    margin: 20px;
+}
+#portafolio
+{   list-style:none;
+    margin:100px 0;
+    height:550px;
+}
+#portafolio li
+{   display:inline;
+    float:left;
+	-webkit-perspective: 500;
+    -webkit-transform-style: preserve-3d;
+	-webkit-transition-property: perspective;
+    -webkit-transition-duration: 0.5s; }
+#portafolio li:hover
+{   -webkit-perspective: 500; }
+
+#portafolio li img
+{   border:10px solid #fcfafa;
+    -webkit-transform: rotateY(30deg);
+	-moz-box-shadow:0 3px 10px #888;
+    -webkit-box-shadow:0 3px 10px #888;
+	-webkit-transition-property: transform;
+    -webkit-transition-duration: 0.5s;
+    width: 350px;
+    height: 2S00px;
+}
+#portafolio li:hover img
+{   -webkit-transform: rotateY(0deg); }
+.portafo-info
+{   border:10px solid #fcfafa;
+    padding:20px;
+    width:250px;
+    height:100px;
+    background-color:#32f;
+    margin:-305px 20px 55px;
+    position:absolute;
+	-moz-box-shadow:0 20px 40px #888;
+    -webkit-box-shadow:0 20px 40px #888;
+	-webkit-transform: translateZ(30px) rotateY(30deg);
+	-webkit-transition-property: transform, box-shadow, margin;
+    -webkit-transition-duration: 0.5s;
+}
+#portafolio li:hover .portafo-info
+{   -webkit-transform: rotateY(0deg);
+    -webkit-box-shadow:0 5px 10px #888;
+    margin:-175px 0 0 30px;
+}
+
+.portafo-info h3 { color:#7a3f3a; font-variant: small-caps; font-family:Georgia,serif,Times; text-align:center; padding-bottom:15px; }
+.portafo-info p { padding-bottom:15px; }
+.portafo-info a { background-color:#7a3f3a; padding:5px 10px; color:#eee; text-decoration:none; display:block; width:80px; text-align:center; margin:0 auto;
+	-moz-border-radius:5px; -webkit-border-radius:5px; }
+.portafo-info a:hover, .movieinfo a:focus { background-color:#6a191f; color:#fff; }
