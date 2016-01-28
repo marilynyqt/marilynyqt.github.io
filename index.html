@@ -1,40 +1,40 @@
 <!doctype html>
-<html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="Perfil">
   <meta name="author" content="Marilyn Yudy Quispe Ticona">
-  <meta property="og:title" content="Title Here" />
-  <meta property="og:type" content="article" />
-  <meta property="og:url" content="http://www.example.com/" />
-  <meta property="og:image" content="http://example.com/image.jpg" />
+  <meta property="og:title" content="Marily Quispe" />
+  <meta property="og:type" content="Marilyn" />
+  <meta property="og:url" content="images/myqt.png" />
+  <meta property="og:image" content="images/myqt.png" />
   <meta property="og:description" content="Description Here" />
   <title>Marilyn Quispe</title>
   <link rel="shorcut icon" href="images/icono-1.png">
   <link href='https://fonts.googleapis.com/css?family=Amita:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
    <link rel="stylesheet" type="text/css" href="css/main.css">
-   <script src="//load.sumome.com/" data-sumo-site-id="9124ffbbed8898b992400423f2a6f04d75880e3914d640a0ad6ad1da00607af9" async="async"></script>
 </head>
 <body>
-    <header class="navbar-fixed-top">
-          <button type="button" class=" list-menu navbar-toggle" data-toggle="collapse" data-target="#acolapsar">
+    <header class=" navbar-fixed-top">
+          <button type="button" class="navbar-toggle collapsed butt-color" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
               <span class="sr-only">Toggle Navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
           </button>
-          <div class="logo col-lg-2 col-md-offset-1 col-xs-6">
+          <div class="logo navbar-brand">
                <img src="images/logo.png">
           </div>
-          <div class="col-lg-4 col-lg-offset-5 col-xs-6 collapse navbar-collapse" id="acolapsar">
-           <nav class="nav navbar-nav">
-                <button>Home</button>
-                <button>About Us</button>
-                <button>Portfolio</button>
-           </nav>
+          <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+               <ul class="nav navbar-nav">
+                    <li><a href="#about"><span data-title="Sobre mí">Sobre mí</span></a></li>
+                    <li><a href="#portafolio"><span data-title="Portafolio">Portafolio</span></a></li>
+                    <li><a href="#habilidades"><span data-title="Habilidades">Habilidades</span></a></li>
+                    <li><a href="#contactame"><span data-title="Contáctame">Contáctame</span></a></li>
+               </ul>
           </div>
     </header>
 
@@ -111,17 +111,17 @@
                     <use xlink:href="#s-text"
                            class="text--transparent"></use>
             </svg>
-               <h4>Web Developer</h4>
+               <h2>Web Developer</h2>
            </div>
         </div>
     </section>
     <div class="container">
         <div class="row about text-center">
-            <h1 id="black">Sobre mi</h1>
-            <div class="col-md-8">
-                    <hr>
+            <h1 class="size-title style-title" id="black">SOBRE MI</h1>
+            <hr class="hr-title">
+            <div id="about-me"class="col-md-8">
                     <p>
-                        Hola mi nombre es <b>Marilyn Quispe Ticona</b> tengo 20 años y tengo la dicha de formar parte de la hermosa familia de Laboratoria Arequipa. Que gracias a ellos pude darme cuenta mi gran pasión por la programación y enorme deseo querer aprender muchisimo mas y no dejar de aprender.
+                        Hola mi nombre es <b>Marilyn Quispe Ticona</b> y tengo la dicha de formar parte de la hermosa familia de Laboratoria Arequipa. Que gracias a ellos pude darme cuenta mi gran pasión por la programación y enorme deseo querer aprender muchisimo mas y no dejar de aprender.
                     </p>
                     <p>
                        Que si podemos cumplir y llegar más allá de nuestras metas dejando atrás los prejuicios generados por la sociedad.
@@ -131,35 +131,31 @@
                 <img src="images/foto-perfil.jpg">
             </div>
         </div>
-            <div
-              class="fb-like"
-              data-share="true"
-              data-width="450"
-              data-show-faces="true">
-            </div>
-            <div class="mensaje text-center">
-                <hr class="hr-arriba">
-                <h1 id="black">"Siempre hay que seguir intentandolo hasta conseguir nuestro objetivo"</h1>
-                <hr class="hr-abajo">
-            </div>
-            <div class="portafolio text-center">
-                <h1 class="size-titulo" id="black">PORTAFOLIO</h1>
+        <div class="fb-like" data-share="true" data-width="450" data-show-faces="true"</div>
+        <div class="mensaje text-center">
+            <hr class="hr-arriba">
+            <h1 class="style-title" id="black">"Siempre hay que seguir intentandolo hasta conseguir nuestro objetivo"</h1>
+            <hr class="hr-abajo">
+        </div>
+        <div class="portafolio text-center">
+                <h1 class="size-title style-title" id="black">PORTAFOLIO</h1>
+                <hr class="hr-title">
                 <ul id="portafolio">
-                    <li>
+                    <li class="col-xs-12 col-md-4">
                         <img src="images/portafolio/dashy.png" alt="">
                         <div class="portafo-info">
                             <h3>Dashi</h3>
                             <a href="">Mas Información</a>
                         </div>
                     </li>
-                    <li>
+                    <li class="col-xs-12 col-md-4">
                         <img src="images/portafolio/primes.png" alt="">
                         <div class="portafo-info">
                             <h3>Primes</h3>
                             <a href="">Mas Información</a>
                         </div>
                     </li>
-                    <li>
+                    <li class="col-xs-12 col-md-4">
                         <img src="images/portafolio/flat-theme.png" alt="">
                         <div class="portafo-info">
                             <h3>Flat Theme</h3>
@@ -175,9 +171,28 @@
                         </div>
                     </li>-->
                 </ul>
+        </div>
+        <div class="contact text-aline">
+            <div id="wrap">
+                <div id='form_wrap'>
+                    <form>
+                        <p>Hello Joe,</p>
+                        <label for="email">Your Message : </label>
+                        <textarea  name="message" value="Your Message" id="message" ></textarea>
+                        <p>Best,</p>
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" value="" id="name" />
+                        <label for="email">Email: </label>
+                        <input type="text" name="email" value="" id="email" />
+                        <input type="submit" name ="submit" value="Now, I send, thanks!" />
+                    </form>
+                </div>
             </div>
+        </div>
     </div>
+
     <script src="https://code.jquery.com/jquery.js"></script>
+	<script src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
     <scrip src="js/bootstrap.min.js"    ></scrip>
     <script>
   window.fbAsyncInit = function() {
@@ -195,6 +210,9 @@
      js.src = "//connect.facebook.net/en_US/sdk.js";
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
-</script>
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/npm.js"></script>
+    <script src="js/animacion.js"></script>
 </body>
 </html>
