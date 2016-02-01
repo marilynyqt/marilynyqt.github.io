@@ -18,26 +18,33 @@
    <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-    <header class=" navbar-fixed-top">
-          <button type="button" class="navbar-toggle collapsed butt-color" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle Navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-          </button>
-          <div class="logo navbar-brand">
-               <img src="images/logo.png">
-          </div>
-          <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-               <ul class="nav navbar-nav">
-                    <li><a href="#about"><span data-title="Sobre mí">Sobre mí</span></a></li>
-                    <li><a href="#portafolio"><span data-title="Portafolio">Portafolio</span></a></li>
-                    <li><a href="#habilidades"><span data-title="Habilidades">Habilidades</span></a></li>
-                    <li><a href="#contactame"><span data-title="Contáctame">Contáctame</span></a></li>
-               </ul>
-          </div>
-    </header>
+    <!--header-->
+     <header class="header navbar navbar-default navbar-fixed-top">
+       <div class="container-fluid">
+           <div class="col-md-6 col-sm-4 row navbar-header">
+                 <div class="logo col-xs-2 col-md-3">
+                      <img src="images/logo.png" >
+                 </div>
+                 <button type="button" class="main-menu col-md-5 navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+           </div>
 
+           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav text-center ">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="about-us.html">Sobre mí</a></li>
+                    <li><a href="services.html">Portafolio</a></li>
+                    <li><a href="portfolio.html">Habilidades</a></li>
+                    <li><a href="blog.html">Contactos</a></li>
+                </ul>
+            </div>
+        </div>
+    </header><!--end header-->
+    <!---portada--->
     <section>
         <div class="header-content">
            <div class="opacity">
@@ -121,7 +128,7 @@
             <hr class="hr-title">
             <div id="about-me"class="col-md-8">
                     <p>
-                        Hola mi nombre es <b>Marilyn Quispe Ticona</b> y tengo la dicha de formar parte de la hermosa familia de Laboratoria Arequipa. Que gracias a ellos pude darme cuenta mi gran pasión por la programación y enorme deseo querer aprender muchisimo mas y no dejar de aprender.
+                        Hola mi nombre es <b>Marilyn Quispe Ticona</b> y tengo la dicha de ser parte de la hermosa familia de Laboratoria Arequipa. Que gracias a ellos pude darme cuenta de mi gran pasión por la programación y el enorme deseo de querer aprender muchisimo más.
                     </p>
                     <p>
                        Que si podemos cumplir y llegar más allá de nuestras metas dejando atrás los prejuicios generados por la sociedad.
@@ -190,8 +197,9 @@
             </div>
         </div>
     </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/npm.js"></script>
     <script src="https://code.jquery.com/jquery.js"></script>
 	<script src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
 
