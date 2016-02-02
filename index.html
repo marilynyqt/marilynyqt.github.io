@@ -45,7 +45,7 @@
         </div>
     </header><!--end header-->
     <!---portada--->
-    <section>
+    <section id="inicio">
         <div class="header-content">
            <div class="opacity">
                <svg  class="nombre" viewBox="0 0 500 160">
@@ -123,7 +123,7 @@
         </div>
     </section>
     <div class="container">
-        <div class="row about text-center">
+        <div id="about" class="row about text-center">
             <h1 class="size-title style-title" id="black">SOBRE MI</h1>
             <hr class="hr-title">
             <div id="about-me"class="col-md-8">
@@ -138,58 +138,52 @@
                 <img src="images/foto-perfil.jpg">
             </div>
         </div>
-        <div class="fb-like" data-share="true" data-width="450" data-show-faces="true"></div>
+        <div class="fb-like" data-share="true" data-width="250" data-show-faces="true"></div>
         <div class="mensaje text-center">
             <hr class="hr-arriba">
             <h1 class="style-title" id="black">"Siempre hay que seguir intentandolo hasta conseguir nuestro objetivo"</h1>
             <hr class="hr-abajo">
         </div>
-        <div class="portafolio text-center">
+        <div id="mi-portafolio"class="portafolio text-center">
                 <h1 class="size-title style-title" id="black">PORTAFOLIO</h1>
                 <hr class="hr-title">
                 <ul id="portafolio">
-                    <li class="col-xs-12 col-md-4">
+                    <li class="col-xs-12 col-md-4 col-sm-6">
                         <img src="images/portafolio/dashy.png" alt="">
                         <div class="portafo-info">
-                            <h3>Dashi</h3>
+                            <h4>Dashi</h4>
                             <a href="">Mas Información</a>
                         </div>
                     </li>
-                    <li class="col-xs-12 col-md-4">
+                    <li class="col-xs-12 col-md-4 col-sm-6">
                         <img src="images/portafolio/primes.png" alt="">
                         <div class="portafo-info">
-                            <h3>Primes</h3>
+                            <h4>Primes</h4>
                             <a href="">Mas Información</a>
                         </div>
                     </li>
                     <li class="col-xs-12 col-md-4">
                         <img src="images/portafolio/flat-theme.png" alt="">
                         <div class="portafo-info">
-                            <h3>Flat Theme</h3>
+                            <h4>Flat Theme</h4>
                             <a href="">Mas Información</a>
                         </div>
                     </li>
-                    <!--<li>
-                        <img src="images/portafolio/" alt="">
-                        <div class="porta-info">
-                            <h3></h3>
-                            <p></p>
-                            <a href="">Mas Información</a>
-                        </div>
-                    </li>-->
                 </ul>
         </div>
-        <div class="contact text-aline">
+        <div id="contacto" class="hidden-xs hidden-sm hidden-md contact text-aline">
+           <h1>CONTACTAME</h1>
+           <hr class="hr-title">
             <div id="wrap">
                 <div id='form_wrap'>
                     <form>
-                        <p>Hello Joe,</p>
-                        <label for="email">Your Message : </label>
+                        <p>Hola Marilyn,</p>
+                        <label for="email">Tú mensaje : </label>
                         <textarea  name="message" value="Your Message" id="message" ></textarea>
-                        <p>Best,</p>
-                        <label for="name">Name: </label>
+                        <p>Siempre,</p>
+                        <label for="name">Nombre: </label>
                         <input type="text" name="name" value="" id="name" />
-                        <label for="email">Email: </label>
+                        <label for="email">Correo: </label>
                         <input type="text" name="email" value="" id="email" />
                         <input type="submit" name ="submit" value="Now, I send, thanks!" />
                     </form>
