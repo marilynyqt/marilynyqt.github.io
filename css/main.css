@@ -31,9 +31,10 @@ h1,h2,h3,h4
 {
     color: black;
 }
-/*----header*/
+/*----header----*/
 
 .header{
+    width: 100%;
     background-color:#04B4AE;
     margin:0;
     border-radius: 0;
@@ -43,13 +44,13 @@ h1,h2,h3,h4
 }
 .logo img
 {
-    width: 75px;
+    width: 80px;
 }
 .navbar-header{
     padding-left: 20px;
 }
 .main-menu {
-    background: #0B2161;
+    background: white;
 }
 .header .navbar-nav>li>a{
     padding: 10px 15px  ;
@@ -75,7 +76,7 @@ h1,h2,h3,h4
 }
 section
 {
-    margin-top: 50px;
+    margin-top: 53px;
 }
 .header-content{
     background: url(../images/programacion.jpg);
@@ -151,7 +152,7 @@ section
 .nombre {
   height: 100%;
   background: transparent;
-  font: 9em/1  Impact;
+  font: 9em/1  Impact, "amita";
   text-transform: uppercase;
 
 }
@@ -236,7 +237,7 @@ svg {
 #portafolio li:hover img
 {   -webkit-transform: rotateY(0deg); }
 .portafo-info
-{   border:10px solid #fcfafa;
+{   border:10px solid #088A4B;
     padding:20px;
     width:150px;
     height:80px;
