@@ -178,7 +178,7 @@ svg {
 /*mensaje */
 .mensaje
 {
-    margin: 60px auto 60px 0;
+    padding:70px;
 }
 .mensaje h1
 {
@@ -204,7 +204,7 @@ svg {
 /* Portafolio */
 .portafolio
 {
-    margin: 60px;
+    padding: 60px 20px 10px;
 }
 #portafolio
 {   list-style:none;
@@ -285,6 +285,7 @@ svg {
 .contact
 {
     background: #2E9;
+    padding: 50px 30px 10px;
 }
 .contact p
 {
@@ -351,7 +352,7 @@ svg {
         top:200px;
         overflow:hidden;
 		height:200px;
-        width:400px;
+        width:420px;
         margin:0px auto;
         padding:20px;
 		border: 1px solid #fff;
