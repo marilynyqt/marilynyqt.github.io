@@ -242,7 +242,7 @@ svg {
     width:150px;
     height:80px;
     background-color:#00FF80;
-    margin:-205px 40px 20px;
+    margin:-235px 40px 20px;
     position:absolute;
 	-moz-box-shadow:0 20px 40px #888;
     -webkit-box-shadow:0 20px 40px #888;
@@ -280,6 +280,24 @@ svg {
 {
     background-color:#084B8A;
     color:#fff;
+}
+/*--fin portafolio---*/
+.habilidades
+{
+    padding: 20px 20px 40px;
+    margin: 5px;
+}
+.habilidades .icon{
+	font-size: 150px;
+	text-align: center;
+	color: darkblue;
+}
+.habilidades i:hover{
+	font-size:175px;
+	transition: all 0.3s;
+}
+.habilidades p{
+	font-size: 17px;
 }
 /*--contactos--*/
 .contact
@@ -432,6 +450,24 @@ svg {
         {
             color:#435c70;
         }
+
+.content-contact{
+	background : black;
+    padding:20px;
+}
+.contact-links li{
+	list-style: none;
+	display: inline-block;
+	color: white;
+	font-size: 60px;
+}
+.content-contact .contact-links ul{
+	text-align: center;
+}
+.content-contact .contact-links li{
+	padding: 10px;
+}
+
 /*---fin-contactos---*/
 
 @media (max-width:600px @screen-xs-max)
