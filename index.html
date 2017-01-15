@@ -50,7 +50,7 @@
     <section id="inicio">
         <div class="header-content">
            <div class="opacity">
-               <svg  class="nombre" viewBox="0 0 500 160">
+               <svg  class="nombre col-md-12 col-xs-12" viewBox="0 0 500 160">
 
                     <!-- Symbol with text -->
                     <symbol id="s-text">
@@ -124,8 +124,8 @@
            </div>
         </div>
     </section>
-    <div class="container"id="about">
-        <div  class="row about text-center">
+    <div id="about">
+        <section  class="row about text-center">
             <h1 class="size-title style-title" id="black">SOBRE MI</h1>
             <hr class="hr-title">
             <div id="about-me"class="col-md-8">
@@ -136,17 +136,17 @@
                        Que si podemos cumplir y llegar más allá de nuestras metas dejando atrás los prejuicios generados por la sociedad.
                     </p>
             </div>
-            <div class="photo col-md-4">
+            <div class="photo col-md-4 col-xs-7">
                 <img src="images/foto-perfil.jpg">
             </div>
-        </div>
-        <div class="fb-like" data-share="true" data-width="250" data-show-faces="true"></div>
-        <div class="mensaje text-center">
+            <div class="fb-like" data-share="true" data-width="250" data-show-faces="true"></div>
+        </section>
+        <section class="mensaje text-center">
             <hr class="hr-arriba">
             <h1 class="style-title" id="black">"Siempre hay que seguir intentandolo hasta conseguir nuestro objetivo"</h1>
             <hr class="hr-abajo">
-        </div>
-        <div id="mi-portafolio"class="portafolio text-center">
+        </section>
+        <section id="mi-portafolio"class="portafolio text-center">
                 <h1 class="size-title style-title" id="black">PORTAFOLIO</h1>
                 <hr class="hr-title">
                 <ul id="portafolio">
@@ -172,8 +172,9 @@
                         </div>
                     </li>
                 </ul>
-        </div>
-        <div id="habilidad" class="habilidades text-center">
+        </section>
+        <section></section>
+        <section id="habilidad" class="habilidades text-center">
            <h1 class="size-title style-title" id="black">HABILIDADES</h1>
            <hr class="hr-title">
            <div class="container">
@@ -199,28 +200,9 @@
                 </div>
               </div>
             </div>
-        </div>
+        </section>
     </div>
-    <div id="contacto" class="hidden-xs hidden-sm hidden-md contact text-aline">
-          <h1>CONTACTAME</h1>
-          <hr class="hr-title">
-          <div id="wrap">
-               <div id='form_wrap'>
-                   <form>
-                        <p>Hola Marilyn,</p>
-                        <label for="email">Tú mensaje : </label>
-                        <textarea  name="message" value="Your Message" id="message" ></textarea>
-                        <p>Siempre,</p>
-                        <label for="name">Nombre: </label>
-                        <input type="text" name="name" value="" id="name" />
-                        <label for="email">Correo: </label>
-                        <input type="text" name="email" value="" id="email" />
-                        <input type="submit" name ="submit" value="Now, I send, thanks!" />
-                    </form>
-                </div>
-            </div>
-    </div>
-    <div id="contacto" class="content-contact text-center">
+    <section id="contacto" class="content-contact text-center">
         <div>
           <h3>Contacto</h3>
           <p>marilynyudy@gmail.com</p>
@@ -235,7 +217,7 @@
              </div>
           </div>
         </div>
-    </div>
+    </section>
     <script src="js/jquery.js"></script>
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

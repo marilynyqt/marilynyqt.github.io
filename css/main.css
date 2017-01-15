@@ -1,6 +1,6 @@
 *
 {
-    border:3px solid indigo;
+    border:2px solid red;
 }
 /* BASIC RESET */
 ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input
@@ -165,6 +165,7 @@ svg {
 .about
 {
     margin: 70px 20px 0;
+    background-color: white;
 }
 .photo img
 {
@@ -287,17 +288,17 @@ svg {
 /*--habilidades--*/
 .habilidades
 {
-    padding: 20px 20px 40px;
-    margin: 5px;
+    padding: 80px 0px;
 }
 .habilidades .icon{
 	font-size: 150px;
 	text-align: center;
-	color: darkblue;
+	color:#65BFA6;
 }
 .habilidades i:hover{
+    color:#2E9;
 	font-size:160px;
-	transition: all 0.3s;
+	transition: all 0.8s;
 }
 .habilidades p{
 	font-size: 17px;
