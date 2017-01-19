@@ -1,7 +1,5 @@
-*
-{
-    border:2px solid red;
-}
+
+
 /* BASIC RESET */
 ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input
 {
@@ -37,12 +35,16 @@ h1,h2,h3,h4
 
 .header{
     width: 100%;
+    height: auto;
     background-color:#04B4AE;
     margin:0;
     border-radius: 0;
     z-index:5;
     padding: 0;
     opacity: 0.9;
+}
+.logo{
+    width: auto;
 }
 .logo img
 {
@@ -52,7 +54,12 @@ h1,h2,h3,h4
     padding-left: 20px;
 }
 .main-menu {
-    background: white;
+    background:#166973;
+    width: 45px;
+}
+.main-menu:hover
+{
+    background:#166 ;
 }
 .header .navbar-nav>li>a{
     padding: 10px 15px  ;
@@ -61,9 +68,37 @@ h1,h2,h3,h4
 .header .navbar-nav{
     margin:0;
 }
-.header .navbar-nav>li>a:hover{
+.effect-button>li
+{
+-webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+}
+.effect-button>li:hover
+{
    background-color:#086A87;
-    color: #fff;
+    font-size: #fff;
+    height:54px;
+    -webkit-animation-name: hvr-buzz-out;
+    animation-name: hvr-buzz-out;
+    -webkit-animation-duration: 0.75s;
+    animation-duration: 0.75s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+[class^="hvr-"] {
+    margin: .4em;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    padding: 1em;
+    cursor: pointer;
+    background: #e1e1e1;
+    text-decoration: none;
+    color: #666;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 .navbar-collapse
 {
@@ -167,6 +202,12 @@ svg {
     margin: 70px 20px 0;
     background-color: white;
 }
+.sobre-mi
+{
+    padding:40px 0px;
+    height: 350px !important;
+
+}
 .photo img
 {
     width: 50%;
@@ -174,14 +215,20 @@ svg {
 }
 #about-me
 {
-  padding: 20px;
+    width: 50%
+    padding: 20px;
     font-size: 18px;
     font-family: Open Sans;
-}
+    }
 /*mensaje */
 .mensaje
 {
-    padding:70px;
+    padding:70px 0px;
+    background: url(http://blog.debugme.eu/wp-content/uploads/2016/01/Cover-Image.png) no-repeat center center fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
 }
 .mensaje h1
 {
