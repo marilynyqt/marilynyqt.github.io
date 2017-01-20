@@ -26,6 +26,7 @@ h1,h2,h3,h4
     border-radius: 300px/10px;
     height: 0px;
     text-align: center;
+    margin: 30px 15px 70px
 }
 #black
 {
@@ -113,10 +114,6 @@ section
 	background-size: cover;
 	background-position: center center;
 	z-index: 1;
-}
-
-.demo-2 .large-header {
-	background-position: center bottom;
 }
 	/* Main styles */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:800);
@@ -216,7 +213,6 @@ svg {
 }
 #about-me
 {
-    width: 50%
     padding: 20px;
     font-size: 18px;
     font-family: Open Sans;
