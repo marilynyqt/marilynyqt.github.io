@@ -90,6 +90,8 @@
     }
 
 })();
+
+//-------------------
 function Particle( x, y, radius ) {
 	this.init( x, y, radius );
 }

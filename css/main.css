@@ -62,21 +62,16 @@ h1,h2,h3,h4
     background:#166 ;
 }
 .header .navbar-nav>li>a{
-    padding: 10px 15px  ;
+    padding: 10px 15px      ;
     color: #EBEDEE;
 }
 .header .navbar-nav{
     margin:0;
 }
-.effect-button>li
-{
--webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-}
 .effect-button>li:hover
 {
-   background-color:#086A87;
-    font-size: #fff;
+    background-color:#15dab6;
+    color:#111;
     height:54px;
     -webkit-animation-name: hvr-buzz-out;
     animation-name: hvr-buzz-out;
@@ -86,19 +81,6 @@ h1,h2,h3,h4
     animation-timing-function: linear;
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
-}
-[class^="hvr-"] {
-    margin: .4em;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    padding: 1em;
-    cursor: pointer;
-    background: #e1e1e1;
-    text-decoration: none;
-    color: #666;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 .navbar-collapse
 {
@@ -120,6 +102,21 @@ section
 	background-size: cover;
 	color: #fff;
 	text-align: center;
+}
+
+.large-header {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+    background-color:black;
+	opacity: 0.8;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+
+.demo-2 .large-header {
+	background-position: center bottom;
 }
 	/* Main styles */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:800);
@@ -193,6 +190,11 @@ section
   text-transform: uppercase;
 
 }
+.posicion{
+  position:absolute;
+  bottom: 10%;
+  right: 2%;
+}
 
 svg {
   position:relative;
@@ -205,7 +207,6 @@ svg {
 .sobre-mi
 {
     padding:40px 0px;
-    height: 350px !important;
 
 }
 .photo img
@@ -520,3 +521,4 @@ svg {
 }
 
 /*---fin-contactos---*/
+/* Header */
