@@ -1,3 +1,17 @@
+
+    $(window).load(function () {
+    $('#cargando').hide(none);
+    });
+    // espera hasta que el DOM este cargado
+    jQuery(document).ready(function () {
+         // esconder el body para luego mostrarlo
+         $('#cargando').hide();
+    });
+    // espera hasta que todo el contenido este descargado
+        jQuery(window).load(function(){
+         // mostrar la etiqueta body lentamente
+         $('#cargando').fadeIn("slow");
+    });
 (function() {
 
     var width, height, largeHeader, canvas, ctx, circles, target, animateHeader = true;

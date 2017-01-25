@@ -196,9 +196,9 @@ section
 svg {
   position:relative;
 }
-.about
+#about
 {
-    margin: 70px 20px 0;
+    margin: 50px 50px 70px;
     background-color: white;
 }
 .sobre-mi
@@ -208,7 +208,7 @@ svg {
 }
 .photo img
 {
-    width: 50%;
+    width: 65%;
     height: auto;
 }
 #about-me
@@ -221,14 +221,15 @@ svg {
 .mensaje
 {
     padding:70px 0px;
-    background: url(http://blog.debugme.eu/wp-content/uploads/2016/01/Cover-Image.png) no-repeat center center fixed;
+    background: url(http://images.forwallpaper.com/files/thumbs/preview/26/262380__abstract-wallpaper-lines-stripes-colors-yellow-red-blue-green-abstract-wallpapers-lines_p.jpg) no-repeat center center fixed;
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
 }
-.mensaje h1
+.mensaje>h1
 {
+    color: s;
     padding: 60px 20px;
     font-size: 40px;
 }
@@ -517,4 +518,9 @@ svg {
 }
 
 /*---fin-contactos---*/
-/* Header */
+#cargando {
+    position:absolute;
+    width:100%;
+    height:100%;
+    background: black url(../images/loading.gif) no-repeat center;
+}
