@@ -1,4 +1,9 @@
-
+#cargando {
+    position:absolute;
+    width:100%;
+    height:100%;
+    background: black url(../images/loading.gif) no-repeat center;
+}
 
 /* BASIC RESET */
 ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input
@@ -221,7 +226,7 @@ svg {
 .mensaje
 {
     padding:70px 0px;
-    background: url(http://images.forwallpaper.com/files/thumbs/preview/26/262380__abstract-wallpaper-lines-stripes-colors-yellow-red-blue-green-abstract-wallpapers-lines_p.jpg) no-repeat center center fixed;
+    background: url(../images/mensajes.jpg) no-repeat center center fixed;
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -518,9 +523,4 @@ svg {
 }
 
 /*---fin-contactos---*/
-#cargando {
-    position:absolute;
-    width:100%;
-    height:100%;
-    background: black url(../images/loading.gif) no-repeat center;
-}
+
