@@ -322,7 +322,7 @@ svg {
     display:block;
     width:100px;
     text-align:center;
-    margin:0 auto;
+    margin:15px auto;
 	-moz-border-radius:5px;
     -webkit-border-radius:5px;
 }
