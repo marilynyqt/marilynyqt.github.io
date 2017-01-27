@@ -340,10 +340,10 @@ svg {
 .habilidades .icon{
 	font-size: 150px;
 	text-align: center;
-	color:#65BFA6;
+	color:#65BFA6 ;
 }
 .habilidades i:hover{
-    color:#2E9;
+    color:#04B4AE;
 	font-size:160px;
 	transition: all 0.8s;
 }
