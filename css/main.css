@@ -292,14 +292,14 @@ svg {
 {   padding:20px;
     width:150px;
     height:80px;
-    background-color:#65BFA1;
-    margin:-235px 40px 20px;
+    background-color:#04B4AE;
+    margin:-235px 40px 20px 120px;
     position:absolute;
 	-moz-box-shadow:0 20px 40px #888;
     -webkit-box-shadow:0 20px 40px #888;
 	-webkit-transform: translateZ(30px) rotateY(30deg);
 	-webkit-transition-property: transform, box-shadow, margin;
-    -webkit-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.8s;
 }
 #portafolio li:hover .portafo-info
 {   -webkit-transform: rotateY(0deg);
@@ -309,7 +309,6 @@ svg {
 
 .portafo-info h4
 {
-    color:black;
     font-variant: small-caps;
     font-family:"amita",serif,Times;
     text-align:center;
