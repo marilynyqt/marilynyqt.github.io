@@ -1,5 +1,7 @@
 #cargando {
     position:absolute;
+    left: 0px;
+    right: 0px;
     width:100%;
     height:100%;
     background: black url(../images/loading.gif)no-repeat center center fixed;
