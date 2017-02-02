@@ -15,7 +15,7 @@ h1,h2,h3,h4
 {
 	color:white;
 	font-family: 'Amita', cursive;
-    font-size: 20px;
+    font-size: 25px;
 }
 .style-title
 {    font: bold 65px/60px;
@@ -23,7 +23,7 @@ h1,h2,h3,h4
 }
 .size-title
 {
-    font-size: 30px;
+    font-size: 40px;
 }
 .hr-title
 {
